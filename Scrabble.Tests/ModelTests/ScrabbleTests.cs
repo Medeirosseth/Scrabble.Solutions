@@ -16,8 +16,11 @@ namespace Scrabble.Tests
     [TestMethod]
     public void ScoreCounter_BreaksWordIntoAStringAndMatchestheValues_Int()
     {
+      string testWord = "dog";
+      char[] testWordArray = { 'd', 'o', 'g'};
       BoardGame newGame = new BoardGame();
-      
+      CollectionAssert.AreEqual(testWordArray, newGame.ScoreCounter(testWord));
+
     }
   }
 }
