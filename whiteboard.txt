@@ -1,13 +1,25 @@
-A, E, I, O, U, L, N, R, S, T       1
-D, G                               2
-B, C, M, P                         3
-F, H, V, W, Y                      4
-K                                  5
-J, X                               8
-Q, Z                               10
+onPoint =    A, E, I, O, U, L, N, R, S, T       1         
+twoPoint =   D, G                               2  
+threePoint = B, C, M, P                         3  
+fourPoint =  F, H, V, W, Y                      4  
+fivePoint =  K                                  5    
+eightPoint = J, X                               8
+tenPoint =   Q, Z                               10
 
-Break up word into a string 
+testing d(2)o(1)g(2) = 5points 
+
+Break up word into a string  
+public char[] SplitString( string input)
+{
+  return input.ToCharArray();
+}
 
 then compare letters to the 7 values 
-
+i++
 add them together 
+
+
+
+Arrange 
+Act
+Assert

@@ -2,6 +2,9 @@ namespace Scrabble.Models
 {
   public class BoardGame
   {
-    // properties, constructors, methods, etc. go here
+    public char[] ScoreCounter(string input)
+   {
+     return input.ToCharArray();
+   }
   }
 }
